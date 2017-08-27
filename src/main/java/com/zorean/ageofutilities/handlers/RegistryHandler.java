@@ -13,10 +13,6 @@ public class RegistryHandler {
     public static void Client() {
 
 
-        // ModItem.register();
-        //ModTools.register();
-        // ModArmor.register();
-        // ModBlocks.registerRenders();
         RecipeHandler.registerCrafting();
         RecipeHandler.registerSmelting();
 
@@ -30,7 +26,7 @@ public class RegistryHandler {
 
         ModBlocks.init();
         ModBlocks.register();
-        //ModBlocks.registerRenders();
+
         ModTools.init();
         ModTools.register();
 
