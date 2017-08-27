@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "ageofutilities:blocks/antium_block",
+        "top": "ageofutilities:blocks/antium_block",
+        "side": "ageofutilities:blocks/antium_block"
+    }
+}

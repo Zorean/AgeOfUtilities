@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=top": { "model": "ageofutilities:antium_block" },
+        "half=bottom": { "model": "ageofutilities:antium_block" }
+    }
+}

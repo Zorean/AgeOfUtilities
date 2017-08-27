@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ageofutilities",
+  "name": "Age of Utilities Mod",
+  "description": "A Minecraft mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ZoreanTerrean"],
+  "credits": "The Forge and FML guys, for making forge and FML",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
