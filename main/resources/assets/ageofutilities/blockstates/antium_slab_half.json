@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "half=bottom": { "model": "ageofutilities:antium_slab_bottom" },
-        "half=top": { "model": "ageofutilities:antium_slab_top" }
-    }
-}

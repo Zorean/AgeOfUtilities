@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "ageofutilities:items/antium_pickaxe"
-  }
-}
