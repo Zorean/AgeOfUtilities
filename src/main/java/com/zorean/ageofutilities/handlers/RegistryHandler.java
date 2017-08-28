@@ -5,36 +5,34 @@ import com.zorean.ageofutilities.init.ModArmor;
 import com.zorean.ageofutilities.init.ModBlocks;
 import com.zorean.ageofutilities.init.ModItem;
 import com.zorean.ageofutilities.init.ModTools;
+
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class RegistryHandler {
 
+	public static void Client() {
 
-    public static void Client() {
+		RecipeHandler.registerCrafting();
+		RecipeHandler.registerSmelting();
 
+	}
 
-        RecipeHandler.registerCrafting();
-        RecipeHandler.registerSmelting();
+	public static void Common() {
 
-    }
+		ModItem.init();
+		ModItem.register();
 
+		ModBlocks.init();
+		ModBlocks.register();
 
-    public static void Common() {
+		ModTools.init();
+		ModTools.register();
 
-        ModItem.init();
-        ModItem.register();
+		ModArmor.init();
+		ModArmor.register();
 
-        ModBlocks.init();
-        ModBlocks.register();
+		GameRegistry.registerWorldGenerator(new AgeOfUtilitiesOreGen(), 0);
 
-        ModTools.init();
-        ModTools.register();
-
-        ModArmor.init();
-        ModArmor.register();
-
-        GameRegistry.registerWorldGenerator(new AgeOfUtilitiesOreGen(), 0);
-
-    }
+	}
 
 }
