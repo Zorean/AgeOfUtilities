@@ -1,7 +1,7 @@
 package com.zorean.ageofutilities.tabs;
 
 
-import com.zorean.ageofutilities.init.ModItem;
+import com.zorean.ageofutilities.init.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
@@ -14,6 +14,6 @@ public class AgeOfUtilitiesTab extends CreativeTabs {
 
 
     public ItemStack getTabIconItem() {
-        return new ItemStack(ModItem.antium_ingot);
+        return new ItemStack(ModItems.antium_ingot);
     }
 }

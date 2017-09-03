@@ -3,7 +3,7 @@ package com.zorean.ageofutilities.handlers;
 import com.zorean.ageofutilities.gen.AgeOfUtilitiesOreGen;
 import com.zorean.ageofutilities.init.ModArmor;
 import com.zorean.ageofutilities.init.ModBlocks;
-import com.zorean.ageofutilities.init.ModItem;
+import com.zorean.ageofutilities.init.ModItems;
 import com.zorean.ageofutilities.init.ModTools;
 
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -19,8 +19,8 @@ public class RegistryHandler {
 
 	public static void Common() {
 
-		ModItem.init();
-		ModItem.register();
+		ModItems.init();
+		ModItems.register();
 
 		ModBlocks.init();
 		ModBlocks.register();
